@@ -1,1 +1,43 @@
-CSS
+
+html
+{
+
+	text-align: center;
+
+}
+
+
+.nav{
+	background-color: #cccccc;
+	margin-bottom:10px
+    text-align:center;
+}
+.nav li{
+	background-color: #cccccc;
+	text-align: left;
+    display:inline;
+}
+.nav a{
+
+	color :#444;
+	display:inline-block;
+	margin: 0 auto;
+    padding:1%;
+    width:17%;
+    
+}
+
+#logo
+{
+	padding: 2%;
+
+}
+
+#container
+{
+	margin: 0 auto;
+	border-color: #212121;
+	padding: 1%;
+	width: 75%;
+}
+
