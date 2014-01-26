@@ -1,43 +1,81 @@
-
-html
-{
-
-	text-align: center;
-
+html{
+	background-image:url(../images/header.gif);
+	background-repeat:repeat-x
+}
+header{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:210px;
+}
+header #menu{
+	margin:30px auto 0 auto;
+	border-top:thin;
+	border-top-weight:5px;
 }
 
 
-.nav{
-	background-color: #cccccc;
-	margin-bottom:10px
+nav{
     text-align:center;
+	width:850px;
+	margin:0 auto 0 auto;
 }
-.nav li{
-	background-color: #cccccc;
-	text-align: left;
+nav li{
     display:inline;
 }
-.nav a{
-
-	color :#444;
-	display:inline-block;
-	margin: 0 auto;
-    padding:1%;
-    width:17%;
-    
+nav li a{
+	color :rgb(137, 137, 104);
+	text-decoration:none;
+    padding:0 28px 0 28px;
+	margin:0 2px 0 2px;
+    width:10px;
+    font-family: 'Rambla', sans-serif;
+	font-size:18px;
+	/*height:10px;*/
+}
+nav li a:hover{
+	-moz-border-radius: 46px;
+	-webkit-border-radius: 46px;
+	border-radius: 46px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 3px #000000;
+	-webkit-box-shadow: 0px 0px 3px #000000;
+	box-shadow: 0px 0px 3px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+	opacity: 0.55;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 55);
+	/*-ms-filter must come before filter*/
+	filter: alpha(opacity = 55);
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*All filters must be placed together*/
+	-webkit-transition: background 620ms ease-in;
+	-moz-transition: background 620ms ease-in;
+	-ms-transition: background 620ms ease-in;
+	-o-transition: background 620ms ease-in;
+	transition: background 620ms ease-in;
+	background-color:rgb(116,179,53);
+	color:white;
 }
 
 #logo
 {
-	padding: 2%;
-
+	
+	text-align: center;
 }
 
-#container
+#content
 {
 	margin: 0 auto;
 	border-color: #212121;
-	padding: 1%;
-	width: 75%;
+	width: 850px;
+}
+#container1{
+	width:100%;
+	height:100px;
+	background-color:#999;
+}
+footer p{
+	text-align:center;
+	font-family: 'Rambla', sans-serif;
 }
 
